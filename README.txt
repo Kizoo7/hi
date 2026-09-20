@@ -1,6 +1,6 @@
-# For Rena ♡ — Dreamy Letter Website
+# For Rena
 
-A small dreamy pink letter website made for Rena.
+A small letter made for you.
 
 ## Files
 
