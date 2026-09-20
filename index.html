@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Rena </title>
+  <meta name="description" content="A little letter for Rena.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="star s1"></span><span class="star s2"></span><span class="star s3"></span>
+    <span class="star s4"></span><span class="star s5"></span><span class="star s6"></span>
+    <span class="star s7"></span><span class="star s8"></span><span class="star s9"></span>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+    <div class="cloud cloud-one"></div>
+    <div class="cloud cloud-two"></div>
+  </div>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle music">
+    <span class="music-icon">♫</span>
+    <span id="musicLabel">Music</span>
+  </button>
+  <audio id="bgMusic" loop preload="none">
+    <source src="audio/dearly-beloved.mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section id="landing" class="landing">
+      <div class="intro">
+        <p class="eyebrow">A little something</p>
+        <h1>For Rena <span>♡</span></h1>
+        <p class="subtitle">Some things are easier to write than to say.</p>
+        <button id="openLetter" class="open-button">
+          <span>Open the letter</span>
+          <span class="arrow">→</span>
+        </button>
+        <p class="hint">Take your time.</p>
+      </div>
+    </section>
+
+    <section id="letterSection" class="letter-section" aria-hidden="true">
+      <div class="letter-wrap">
+        <article class="letter">
+          <div class="letter-top">
+            <span>20—</span>
+            <span>♡</span>
+          </div>
+
+          <h2>Dear Rena,</h2>
+
+          <div class="letter-body">
+            <p>Thank you for the past few months that you've been here. It may have been a short time, but honestly, it was short yet gold. There were so many little moments, conversations, memories, and things that probably seemed ordinary at the time, but somehow they became something that I know I’ll remember for a long time.</p>
+
+            <p>And if we really do meet again someday in December, I’ll make sure that by then, everything is right, everything is okay. I’ll take better care of myself. I’ll eat well, sleep enough, drink enough water, and I hope you’ll do the same. I want to meet you again knowing that we both made it through whatever comes next, even if the days between now and then are not always easy.</p>
+
+            <p>I’ll remember you through all the memories we had. I’ll probably think about our conversations, the random moments, the laughter, the silence, and all those small things that made these past few months meaningful to me. I’ll learn how to play the piano all over again too. Maybe by the time we meet again, I’ll be able to play something for you. And I’ll try my best to be in my best form by then, not just physically, but as a person too.</p>
+
+            <p>Until then, please take care of yourself. Eat enough food, even when you're busy. Sleep well, even when you have a lot on your mind. Drink enough water. Don't stress yourself too much, and please don't let everything pile up inside your head. Take breaks when you need them. And be careful you might step on a random rock someday, and if you do fall, don't forget to get back up again.</p>
+
+            <p>You'll have your best friend accompanying you throughout your semester, so I hope you won't feel too alone. Let them be there for you when things get difficult, and don't be afraid to rely on the people who care about you. I hope you'll always have someone who can make things feel a little lighter.</p>
+
+            <p>And I'm sorry. I'm sorry I couldn't always be the best for you. I'm sorry for the times when I wasn't there when you needed someone, and for the moments when I left you alone. There are probably things I could have done better, words I could have said differently, and moments where I should have stayed a little longer. I can't change those things now, but I hope you know that I never meant to make you feel like you weren't important to me.</p>
+
+            <p>Thank you for being part of these past few months. It may have been short, but it meant more to me than you probably realize. So until December, take care of yourself. Keep going, keep growing, and don't forget to look after yourself along the way.</p>
+
+            <p>And uh... i won't be there until your birthday so.. Happy Birthday hehe :p</p>
+          </div>
+
+          <div class="signature">
+            <p>Until then,</p>
+            <div class="signature-name">Alips</div>
+          </div>
+
+          <div class="paper-decoration" aria-hidden="true">✦</div>
+        </article>
+
+        <button id="backButton" class="back-button">← back to the beginning</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
